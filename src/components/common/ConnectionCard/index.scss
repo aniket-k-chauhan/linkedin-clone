@@ -1,0 +1,83 @@
+.connection-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid var(--black-a08);
+    border-radius: 8px;
+    height: 282px;
+    padding: 12px;
+    height: 282px;
+    font-family: system-ui;
+
+    .connection-card-info-wrapper {
+        cursor: pointer;
+
+        .user-connection-card-img {
+            width: 104px;
+            height: 104px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 8px;
+        }
+    
+        .user-name {
+            margin: 0px;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--black-a90);
+        }
+
+        .user-name:hover {
+            color: var(--linkedin-color);
+            text-decoration: underline;
+        }
+    
+        .user-headline {
+            margin: 0px;
+            font-size: 14px;
+            color: var(--black-a60);
+        }
+    }
+
+    .connection-pending {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: system-ui;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: var(--linkedin-color);
+        color: white;
+        padding: 6px 16px;
+        border: 1px solid var(--linkedin-color);
+        border-radius: 51px;
+    }
+
+    .connect-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: system-ui;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: white;
+        color: var(--linkedin-color);
+        padding: 6px 16px;
+        border: 1px solid var(--linkedin-color);
+        border-radius: 51px;
+        width: 100%;
+        cursor: pointer;
+
+    }
+    
+    .connect-btn-icon {
+        font-size: 18px;
+        margin-right: 4px;
+    }
+
+    .connect-btn:hover {
+        background-color:  var(--blue-50-a20);
+        outline: 1px solid var(--linkedin-color);
+    }
+}

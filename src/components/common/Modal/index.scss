@@ -1,0 +1,55 @@
+.ant-modal-content {
+    padding-bottom: 16px !important;
+}
+
+.modal-input {
+    margin-bottom: 8px;
+}
+
+.ql-container {
+    font-family: system-ui !important;
+    font-size: 14px !important;
+    border: none !important;
+}
+
+.ql-toolbar {
+    border: none !important;
+}
+
+.post-image {
+    margin: 16px 0px;
+    width: 100%;
+}
+
+.modal-photo-icon-label {
+    display: inline-block;
+
+    .modal-photo-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+        height: 56px;
+        background-color: #f3f2ef;
+        border-radius: 50%;
+        color: #666666;
+        border: none;
+        cursor: pointer;
+        color: var(--black-a60);
+        font-size: 22px;
+        padding: 0px;
+    }
+    
+    .modal-photo-icon:hover {
+        box-shadow: 1px 3px 5px var(--black-a30);
+        color: #378fe9;
+    }
+}
+
+
+.hr-divider {
+    border: 0;
+    border-top: 1px solid var(--black-a08);
+    height: 1px;
+    margin: 14px -24px;
+}

@@ -1,0 +1,98 @@
+.close-btn {
+  display: flex;
+  justify-content: right;
+
+  button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: var(--black-a60);
+    padding: 10px;
+  }
+
+  button:hover {
+      background-color: var(--black-a08);
+      border-radius: 50%;
+  }
+
+  .close-icon {
+      font-size: 22px;
+  }
+}
+
+.profile-edit-form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-size: 14px;
+        color: var((--black-a60));
+    }
+
+    .edit-common-input {
+        height: 10px;
+        padding: 10px;
+        background-color: white;
+        color: rgba(0,0,0,0.9);
+        outline: none;
+        border: 1px solid rgba(0,0,0,0.6);
+        border-radius: 4px;
+        font-family: system-ui;
+        font-size: 14px;
+        margin: 5px 0px 30px 0px;
+      }
+      
+      .edit-common-input:focus {
+        outline: 1px solid var(--linkedin-color);
+      }
+
+      .edit-common-input::placeholder {
+        font-size: 14px;
+      }
+
+      .edit-common-teaxtarea {
+        padding: 10px;
+        background-color: white;
+        color: rgba(0,0,0,0.9);
+        outline: none;
+        border: 1px solid rgba(0,0,0,0.6);
+        border-radius: 4px;
+        font-family: system-ui;
+        font-size: 14px;
+        margin: 5px 0px 30px 0px;
+      }
+
+      .edit-common-teaxtarea:focus {
+        outline: 1px solid var(--linkedin-color);
+      }
+
+      .edit-common-teaxtarea::placeholder {
+        font-size: 14px;
+      }
+}
+
+.save-btn {
+    margin-bottom: 20px;
+    width: 352px;
+    height: 52px;
+    outline: none;
+    border: none;
+    border-radius: 28px;
+    background-color: var(--linkedin-color);
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.save-container {
+    display: flex;
+    justify-content: center;
+}
+
+.save-btn:hover {
+    cursor: pointer;
+    background-color: var(--linkedin-color-dark);
+}

@@ -1,0 +1,16 @@
+.connection-request-card-grid {
+    display: grid;
+    grid-template-columns: minmax(125px, 600px);
+    justify-content: center;
+    margin: 24px 20px;
+}
+
+.connection-card-cmp-grid {
+    display: grid;
+    grid-template-columns: minmax(125px, 200px) minmax(125px, 200px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 24px 20px;
+    gap: 20px;
+}

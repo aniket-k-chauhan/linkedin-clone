@@ -1,0 +1,35 @@
+.popup-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    border: 1px solid var(--black-a08);
+    border-radius: 8px;
+    font-family: system-ui;
+    padding: 8px;
+
+    .name {
+        margin: 0px;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--black-a90);
+    }
+
+    .headline {
+        margin: 0px;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--black-a90);
+    }
+
+    .popup-options {
+        padding: 0px;
+        list-style: none;
+    }
+
+    .popup-option {
+        cursor: pointer;
+    }
+}

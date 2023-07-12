@@ -1,0 +1,96 @@
+.post-card {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    border: 1px solid var(--black-a08);
+    border-radius: 8px;
+    font-family: system-ui;
+    padding: 10px 16px;
+
+    .post-user-info-contaniner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+
+        .post-user-info {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+
+            .post-profile-image {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+    
+            .post-name-timestamp {
+                margin-left: 8px;
+    
+                .name{
+                    margin: 0px;
+                    // padding: 0px 16px;
+                    font-size: 14px;
+                    color: var(--black-a90);
+                    font-weight: 600;
+                }
+            
+                .name:hover {
+                    color: var(--linkedin-color);
+                    text-decoration: underline;
+                }
+            
+                .timestamp {
+                    margin: 0px;
+                    // padding: 0px 16px;
+                    font-size: 12px;
+                    color: var(--black-a60);
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .post-action {
+            display: flex;
+            align-items: center;
+
+            .post-action-btn {
+                height: 30px;
+                background-color: white;
+                border: none;
+                cursor: pointer;
+                color: var(--black-a60);
+                font-size: 20px;
+                padding: 5px;
+                margin-left: 3px;
+            }
+
+            .post-action-btn:hover {
+                background-color: var(--black-a08);
+                border-radius: 50%;
+            }
+        }
+    }
+
+    
+    .status {
+        margin: 0px;
+        // padding: 16px 0px;
+        font-family: system-ui;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--black-a90);
+    }
+
+    .status > * {
+        margin: 0px;
+    }
+
+    .post-image {
+        margin: 16px 0px 0px;
+        width: 100%;
+      }
+
+}

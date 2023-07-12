@@ -1,0 +1,17 @@
+.upload-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: system-ui;
+
+    .upload-image {
+        border: 2px solid var(--linkedin-color);
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .upload-progress {
+        margin-top: 10px;
+    }
+}

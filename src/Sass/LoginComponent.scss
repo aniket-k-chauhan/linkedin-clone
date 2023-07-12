@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.login-wrapper {
+    background-color: white;
+    height: 100vh;
+
+    .login-wrapper-inner {
+        // margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading {
+        padding: 0px 5px;
+        font-family: system-ui;
+        font-weight: 600;
+        font-size: 32px;
+        color: rgba(0,0,0,0.9);
+        line-height: 1.25;
+    }
+
+    .sub-heading {
+        margin-top: -20px;
+        font-family: system-ui;
+        font-weight: 400;
+        font-size: 14px;
+        color: rgba(0,0,0,0.9);
+    }
+}
+
+.auth-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 352px;
+}
+
+.login-btn {
+    margin-top: 20px;
+    width: 352px;
+    height: 52px;
+    outline: none;
+    border: none;
+    border-radius: 28px;
+    background-color: var(--linkedin-color);
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+    background-color: var(--linkedin-color-dark);
+}
+
+.linkedinLogo {
+    width: 40px;
+}
+
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+    &:before {
+      content: '';
+      // use the linear-gradient for the fading effect
+      // use a solid background color for a solid bar
+      background: linear-gradient(to right, transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+    &:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+  
+      padding: 0 .5em;
+      line-height: 1.5em;
+      // this is really the only tricky part, you need to specify the background color of the container element...
+      color: #818078;
+      background-color: #fcfcfa;
+    }
+}
+
+.google-btn-container {
+    // margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .google-btn {
+        width: 352px !important;
+    }
+
+    .go-to-signup {
+        // margin-left: 80px;
+        font-size: 16px;
+        font-family: system-ui;
+    }
+
+    .join-now {
+        color: var(--linkedin-color);
+        cursor: pointer;
+        font-weight: 600;
+    }
+}

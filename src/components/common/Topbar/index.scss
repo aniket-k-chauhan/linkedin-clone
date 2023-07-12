@@ -1,0 +1,110 @@
+.topbar-main {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.linkedin-logo {
+    width: 45px;
+    margin-left: 20px;
+}
+
+.react-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    margin-left: 30px;
+}
+
+.react-icon {
+    cursor: pointer;
+    color: #787878;
+}
+
+.react-icon:hover {
+    color: black;
+}
+
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.popup-position {
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    z-index: 99;
+}
+
+.search-result-container {
+    background-color: white;
+    border: 1px solid var(--black-a08);
+    border-radius: 8px;
+    width: 70%;
+    height: auto;
+    position: absolute;
+    left: 75px;
+    top: 45px;
+    z-index: 99;
+
+    .search-result-user {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+        gap: 3px;
+
+        .search-result-user-image {
+            margin-right: 8px;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .search-result-user-name {
+            white-space: nowrap;
+            margin: 0px;
+            font-family: system-ui;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--black-a90);
+        }
+
+        .info-separator {
+            color: var(--black-a60);
+        }
+
+        .search-result-user-headline {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 0px;
+            font-family: system-ui;
+            font-size: 12px;
+            color: var(--black-a60);
+        }
+    }
+
+    .search-result-user:hover {
+        background-color: var(--system-gray-20);
+    }
+
+    .search-result-user:first-child:hover {
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .search-result-user:last-child:hover {
+        border-radius: 0px 0px 8px 8px;
+    }
+
+}

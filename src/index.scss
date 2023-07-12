@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
+@import url("./components/common/Loader/index.scss");
+
+:root {
+  --linkedin-color: #0a66c2;
+  --linkedin-color-dark: #054d96;
+  --black-a08: rgba(0, 0, 0, 0.08);
+  --black-a30: rgba(0, 0, 0, 0.3);
+  --black-a60: rgba(0, 0, 0, 0.6);
+  --black-a90: rgba(0, 0, 0, 0.9);
+  --blue-50-a20: rgba(112,181,249,0.2);
+  --system-gray-20: #f2f2f2;
+  --cool-gray-20: #eef3f8;
+  
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #212121;
+  background-color: #f3f2ef;
+
+  margin-bottom: 40px;
+}
+
+.common-input {
+  height: 30px;
+  padding: 10px;
+  background-color: white;
+  color: rgba(0,0,0,0.9);
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.6);
+  border-radius: 4px;
+  font-family: system-ui;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+.common-input:focus {
+  outline: 1px solid var(--linkedin-color);
+}
+
+::placeholder {
+  font-family: system-ui;
+  font-size: 18px;
+}

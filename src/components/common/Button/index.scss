@@ -1,0 +1,18 @@
+.common-btn {
+    margin: 6px 0px;
+    background-color: white;
+    border: 1px solid var(--linkedin-color);
+    color: var(--linkedin-color);
+    width: 100%;
+    height: 26px;
+    border-radius: 13px;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.common-btn:hover {
+    border: 2px solid var(--linkedin-color);
+    background-color: var(--blue-50-a20);
+}

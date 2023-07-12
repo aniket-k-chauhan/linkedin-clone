@@ -1,0 +1,97 @@
+.connection-request-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid var(--black-a08);
+    border-radius: 8px;
+    height: 88px;
+    padding: 12px;
+    font-family: system-ui;
+    
+
+    .connection-request-card-info {
+        display: flex;
+        align-items: center;
+        min-width: 0;
+
+        .connection-request-card-img {
+            padding-right: 8px;
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .trucket-text-wrapper {
+            overflow: hidden;
+        }
+    
+        .user-name {
+            margin: 0px;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--black-a90);
+        }
+
+        .user-headline {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 0px;
+            font-size: 14px;
+            color: var(--black-a60);
+        }
+    }
+
+    .connection-request-card-btn {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 5px;
+
+        .connection-request-ignore-btn {
+            cursor: pointer;
+            width: 100%;
+            background-color: white;
+            border: none;
+            color: var(--black-a60);
+            font-family: system-ui;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 6px 8px;
+        }
+
+        .connection-request-ignore-btn:hover {
+            background-color: var(--black-a08);
+            border-radius: 6px;
+        }
+
+        .connection-request-accept-btn {
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid var(--linkedin-color);
+            color: var(--linkedin-color);
+            font-family: system-ui;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 6px 16px;
+            border-radius: 26px;
+        }
+
+        .connection-request-accept-btn:hover {
+            outline: 1px solid var(--linkedin-color);
+            background-color: var(--blue-50-a20);
+        }
+    }
+
+    @media screen and (min-width: 600px) {
+        .connection-request-card-btn {
+            flex-direction: row;
+
+            .connection-request-ignore-btn {
+                margin-right: 8px;
+            }
+        }
+    }
+}
